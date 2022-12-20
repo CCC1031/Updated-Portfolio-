@@ -667,9 +667,9 @@ hr {
 }
 
 /* added home area */
-@media (max-width: 389.98px) {
+@media (max-width: 390.98px) {
   .home-area {
-    height: 400px;
+    height: 600px;
   }
 }
 
