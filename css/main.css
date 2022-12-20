@@ -680,6 +680,7 @@ hr {
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 15px;
+  
 }
 
 .about-area .about-content .content-description {
@@ -970,8 +971,9 @@ hr {
 }
 
 .portfolio-area .portfolio-grid .portfolio-wrapper:hover:before {
-  opacity: 1;
+  opacity:1;
   visibility: visible;
+  /* background:#007bff ; */
 }
 
 .portfolio-area .portfolio-grid .portfolio-wrapper:hover .item-content {
@@ -1084,6 +1086,7 @@ hr {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
+  
 }
 
 .portfolio-area .lightbox-wrapper .lightbox-content .content-description p {
@@ -1139,6 +1142,7 @@ hr {
 
   .portfolio-area .lightbox-wrapper .lightbox-content .content-title {
     font-size: 36px;
+    
   }
 
   .portfolio-area .lightbox-wrapper .lightbox-content .content-info .single-info {
