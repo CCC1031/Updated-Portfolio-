@@ -81,6 +81,7 @@ hr {
   color: #222;
   font-size: 14px;
   padding: 10px 38px;
+  margin-top: -40px;
 }
 
 .button-main:focus {
@@ -96,7 +97,8 @@ hr {
 /* Sections */
 .single-section {
   background-color: #fff;
-  padding: 85px 40px;
+  padding: 35px 40px;
+  /* margin-top: -10px; */
 }
 
 .single-section.alt-bg {
@@ -664,6 +666,13 @@ hr {
   }
 }
 
+/* added home area */
+@media (max-width: 389.98px) {
+  .home-area {
+    height: 400px;
+  }
+}
+
 /*--- About ---*/
 .about-area .about-img img {
   background-color: transparent;
@@ -689,11 +698,15 @@ hr {
 }
 
 .about-area .about-content .content-description p:last-child {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.08); */
   margin-bottom: 0;
   padding-bottom: 27px;
 }
-
+/* added line */
+.line {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  margin-top: 40px;
+}
 .about-area .about-content .content-info {
   font-size: 15px;
   margin-bottom: 4px;
