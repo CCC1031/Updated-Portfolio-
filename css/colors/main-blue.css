@@ -1,28 +1,4 @@
-/*!
-  * Item: CodeX
-  * Description:  Personal Portfolio / Resume / CV / vCard Template
-  * Author/Developer: Exill
-  * Author/Developer URL: https://themeforest.net/user/exill
-  * Version: v1.0.0
-  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
-  */
 
-/*----------- Table of Contents -----------*/
-/**
- * Bootstrap template
- * Globals
- * Sidebar
- * Home
- * About
- * Services
- * Hire
- * Portfolio
- * Testimonials
- * Blog
- * Contact
- * Footer
- */
-/*----------- Bootstrap Template -----------*/
 :root {
   --custom: #007bff;
 }
@@ -188,7 +164,7 @@ a.text-custom:focus {
   color: #0056b3 !important;
 }
 
-/*----------- Globals -----------*/
+/*-----menu----*/
 ::-moz-selection {
   background-color: #007bff;
   color: #fff;
@@ -239,27 +215,23 @@ a:not(.btn):focus {
   box-shadow: none !important;
 }
 
-/*----------- Sidebar -----------*/
+/*---- Side--*/
 .sidebar .sidebar-menu .list-menu .nav-link.active {
   color: #007bff;
 }
 
-/*----------- Home -----------*/
+/*---- Home ---*/
 .home-area .home-name span {
   color: #007bff;
 }
 
-/*----------- About -----------*/
+/*---- About ---*/
 .about-area .about-content .content-subtitle {
   color: #007bff;
 }
 
-/*----------- Services -----------*/
-.services-area .single-service .service-icon {
-  color: #007bff;
-}
 
-/*----------- Portfolio -----------*/
+/*---- Project ----*/
 .portfolio-area .filter-control>li:hover,
 .portfolio-area .filter-control>li.tab-active {
   color: #1f8bff;
@@ -274,22 +246,14 @@ a:not(.btn):focus {
   color: #007bff;
 }
 
-/*----------- Testimonials -----------*/
-.testimonials-area .single-review .review-icon {
-  color: #007bff;
-}
 
-/*----------- Blog -----------*/
+
+/*--- Blog ----*/
 .blog-area .single-post .post-img .content-date {
   background-color: #007bff;
 }
 
-/*----------- Contact -----------*/
-.contact-area .contact-form .form-group .form-control:focus {
-  border-bottom: 1px solid #3395ff;
-}
-
-/*----------- Footer -----------*/
+/*---- Foot ------*/
 .footer-area .contact-info .info-icon {
   color: #007bff;
 }
