@@ -1256,6 +1256,7 @@ hr {
 }
 .card-img-top {
   height: 230px; 
+  border-radius: 7px;
 }
 
 .blog-area .single-post .post-img .content-date {
