@@ -141,6 +141,7 @@ hr {
 @media (max-width: 389.98px) {
   .single-section {
     padding: 65px 15px;
+    
   }
 
   .single-section .section-heading>.section-title {
@@ -803,13 +804,13 @@ hr {
   }
 }
 
-@media (max-width: 389.98px) {
+@media (max-width: 390px) {
   html, body {
     width: 100%;
     height: 100%;
     margin:0;
     padding: 0;
-    overflow: hidden;
+    overflow:hidden;
   }
   .about-area {
     padding-bottom: 51px;
