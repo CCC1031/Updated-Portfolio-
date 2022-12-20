@@ -327,7 +327,7 @@ hr {
 
   
 
-/*----------- Sidebar ------*/
+/*--- Sidebar ----*/
 .sidebar {
   background-color: #111;
 }
@@ -492,11 +492,11 @@ hr {
 }
 
 .home-area .home-name {
-  color: #fff;
-  font-size: 68px;
-  font-weight: 700;
+  /* color: #fff; */
+  font-size: 32px;
   letter-spacing: 0.3px;
-  margin-bottom: 29px;
+  /* float: left;  */
+  margin-left: -375px;
 }
 
 .home-area .home-headline {
@@ -636,7 +636,9 @@ hr {
   }
 
   .home-area .home-name {
-    font-size: 62px;
+    font-size: 30px;
+    /* float: left;  */
+    margin-left: auto;
   }
 
   .home-area .home-headline {
@@ -650,7 +652,10 @@ hr {
 
 @media (max-width: 389.98px) {
   .home-area .home-name {
-    font-size: 48px;
+    font-size: 18px;
+    /* margin-left: auto; 
+    margin-right: auto;  */
+    
   }
 
   .home-area .home-headline {
