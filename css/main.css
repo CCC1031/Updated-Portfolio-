@@ -23,12 +23,14 @@ i.icon {
   line-height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+h1 {
+  color: #222;
+}
+h2,h3, h4, h5,
+h6 {
+  color: #222;
+}
+
 .h1,
 .h2,
 .h3,
@@ -337,6 +339,7 @@ hr {
   border-radius: 50%;
   margin-bottom: 16px;
   width: 110px;
+  background-color: rgb(216, 216, 216);
 }
 
 .sidebar .sidebar-header .sidebar-name {
@@ -1354,6 +1357,7 @@ hr {
   .footer-area .mini-footer .social-medias {
     margin-bottom: 14px;
   }
+
 
 }
 
