@@ -688,7 +688,9 @@ hr {
     border: 3px solid pink;
     width: 300px;  
   }
-  
+  #project1 {
+    width: 300px; 
+  }
 }
 
 /*--- About ---*/
@@ -1244,11 +1246,16 @@ hr {
 .blog-area .single-post {
   background-color: transparent;
   border: none;
+  /* border: 1px solid red;  */
+  height: 400px; 
 }
 
 .blog-area .single-post .post-img {
-  height: 100%;
+  /* height: 100%; */
   position: relative;
+}
+.card-img-top {
+  height: 230px; 
 }
 
 .blog-area .single-post .post-img .content-date {
