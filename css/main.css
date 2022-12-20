@@ -149,6 +149,7 @@ hr {
   .single-section .section-heading>.section-title {
     font-size: 34px;
   }
+
 }
 
 /* background */
@@ -657,13 +658,13 @@ hr {
   .home-area .home-name {
     font-size: 18px;
     /* margin-left: auto; 
-    margin-right: auto;  */
-    
+    margin-right: auto;  */  
   }
 
   .home-area .home-headline {
     font-size: 26px;
   }
+  
 }
 
 /* added home area */
@@ -671,6 +672,23 @@ hr {
   .home-area {
     height: 600px;
   }
+
+  .portfolio-grid {
+    flex-direction: column;
+  }
+
+
+  .portfolio-area .portfolio-grid .portfolio-item .portfolio-wrapper {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+    /* position: relative; */
+    border: 3px solid pink;
+    width: 300px;  
+  }
+  
 }
 
 /*--- About ---*/
@@ -815,6 +833,7 @@ hr {
     margin-bottom: 10px;
     width: auto;
   }
+ 
 }
 
 @media (max-width: 390px) {
@@ -845,6 +864,8 @@ hr {
   .about-area .about-content .content-work {
     margin-bottom: 14px;
   }
+
+ 
 }
 
 
@@ -894,6 +915,7 @@ hr {
   .hire-area .hire-title {
     margin-bottom: 18px;
   }
+  
 }
 
 /*----- projects-----*/
@@ -934,8 +956,8 @@ hr {
   overflow: hidden;
   position: relative;
   border: 3px solid pink;
-  width: 230px; 
-  height: 145px;
+  width: 325px; 
+  height: 200px;
 }
 #project1 {
   background-color: black;
