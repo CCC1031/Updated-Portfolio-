@@ -232,20 +232,9 @@ a:not(.btn):focus {
 
 
 /*---- Project ----*/
-.portfolio-area .filter-control>li:hover,
-.portfolio-area .filter-control>li.tab-active {
-  color: #1f8bff;
-}
-
-.portfolio-area .filter-control>li:hover:before,
-.portfolio-area .filter-control>li.tab-active:before {
-  background-color: #1f8bff;
-}
-
 .portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-more {
   color: white;
 }
-
 
 
 /*--- Blog ----*/

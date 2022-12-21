@@ -921,33 +921,6 @@ hr {
 }
 
 /*----- projects-----*/
-.portfolio-area .filter-control {
-  margin-bottom: 14px;
-}
-
-.portfolio-area .filter-control>li {
-  border-bottom: 1px solid transparent;
-  color: #444;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-  position: relative;
-  transition: all .10s ease-in-out;
-}
-
-.portfolio-area .filter-control>li:not(:last-child) {
-  margin-right: 16px;
-}
-
-.portfolio-area .filter-control>li:hover:before,
-.portfolio-area .filter-control>li.tab-active:before {
-  bottom: 0;
-  content: "";
-  height: 1px;
-  position: absolute;
-  width: 100%;
-}
 
 .portfolio-area .portfolio-grid .portfolio-wrapper {
   -ms-flex-align: center;
@@ -966,7 +939,7 @@ hr {
 }
 
 .portfolio-area .portfolio-grid .portfolio-wrapper:before {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(86, 6, 6, 0.9);
   bottom: 0;
   content: '';
   height: 100%;
