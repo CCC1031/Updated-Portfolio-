@@ -232,7 +232,7 @@ a:not(.btn):focus {
 
 
 /*---- Project ----*/
-.portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-more {
+.portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-more:focus, .portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-more:hover  {
   color: white;
 }
 
