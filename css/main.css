@@ -494,13 +494,25 @@ hr {
 .home-area:before {
   background-color: rgba(245, 240, 240, 0.68);
 }
+.second-avatar { 
+  right: -520px;
+  top: 431px;
+  position: relative; 
+}
+
+/* .avatar-content {
+  display:flex;
+
+} */
 
 .home-area .home-name {
   /* color: #fff; */
   font-size: 32px;
   letter-spacing: 0.3px;
   /* float: left;  */
-  margin-left: -375px;
+  left: -300px;
+  top: 500px;
+  position: relative;
 }
 
 .home-area .home-headline {
@@ -652,6 +664,13 @@ hr {
   .home-area .home-mouse {
     display: none;
   }
+  .second-avatar { 
+    right: -230px;
+    top: 160px;
+    position: relative; 
+    height: auto; 
+    max-width: 330px;
+  }
 }
 
 @media (max-width: 389.98px) {
@@ -784,6 +803,13 @@ hr {
     font-size: 14px;
     padding: 20px 0;
   }
+  .second-avatar { 
+    right: -200px;
+    top: 237px;
+    position: relative; 
+    height: auto; 
+    max-width: 260px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -818,6 +844,7 @@ hr {
     margin-bottom: 0;
     padding: 24px 0;
   }
+ 
 }
 
 @media (max-width: 767.98px) {
@@ -865,6 +892,9 @@ hr {
   .about-area .about-content .content-download,
   .about-area .about-content .content-work {
     margin-bottom: 14px;
+  }
+  .second-avatar { 
+   display: none;
   }
 
  
