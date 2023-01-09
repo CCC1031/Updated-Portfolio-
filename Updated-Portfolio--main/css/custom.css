@@ -1,0 +1,44 @@
+.header { 
+  position: relative;
+  right: 80px; 
+  top: -50px; 
+}
+#resume {
+  position: relative;
+  width: 170px;
+  height: 35px;
+  margin-top: 1px;
+
+}
+.download { 
+  position: absolute;
+  margin-top: -4px;
+  margin-left: -40px;
+}
+.single-section .single {
+  background-color: #fff;
+  border: 1px solid #007bff;
+  padding: 40px 30px;
+  text-align: center;
+  height: 275px; 
+  border-radius: 10px;
+}
+.single-section .single .bi-quote {
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 1px;
+}
+.single-section .single .quote {
+  margin-bottom: 20px;
+}
+
+.single-section .single .author {
+  color: #3c3c3c;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.single-section .owl-carousel .owl-dots {
+  margin-top: 24px !important;
+}
